@@ -269,31 +269,14 @@ body {
   font-weight: 100;
 }
 
-.portfolio .container {
-  padding: 100px 20px;
-}
-.portfolio-cards {
-  display: grid;
-  justify-content: center;
+.portfolio .swiper-slide {
+  display: flex;
   align-items: center;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
-  padding-top: 75px;
+  justify-content: center;
+  height: 400px;
 }
-.portfolio-cards .portfolio-card {
-  display: grid;
-  gap: 0;
-  cursor: pointer;
-}
-.portfolio-cards .portfolio-card .portfolio-image {
+.portfolio .swiper-slide img {
   max-width: 100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  transition: all 0.4s linear;
-  border-radius: 5px;
-}
-.portfolio-cards .portfolio-card:hover .portfolio-image {
-  transform: translateY(-0.25rem);
 }
 
 .contact-info {

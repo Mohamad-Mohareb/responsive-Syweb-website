@@ -354,32 +354,16 @@ body {
         @extend %container;
         @extend %section-title;
         @extend %section-logo;
-        padding: 100px 20px;
     }
 
-    &-cards {
-        display: grid;
-        justify-content: center;
+    .swiper-slide {
+        display: flex;
         align-items: center;
-        grid-template-columns: auto auto auto;
-        gap: 20px;
-        padding-top: 75px;
+        justify-content: center;
+        height: 400px;
 
-        .portfolio-card {
-            display: grid;
-            gap: 0;
-            cursor: pointer;
-
-            .portfolio-image {
-                max-width: 100%;
-                backface-visibility: hidden;
-                transition: all .4s linear;
-                border-radius: 5px;
-            }
-
-            &:hover .portfolio-image {
-                transform: translateY(-.25rem);
-            }
+        img {
+            max-width: 100%;
         }
     }
 }

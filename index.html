@@ -5,22 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SyWeb</title>
-    <!-- Link CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Link Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> 
     <!-- Link Font-Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Link Fonts-Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- Link Logo -->
     <link rel="icon" href="./assets/images/logo-1.png">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-
 
     <!-- header -->
     <header class="header">
         <div class="container">
-            <a href="#home" class="logo"><img src="./assets/images/logo-1.png" alt=""></a>
+            <a href="#home" class="logo"><img src="./assets/images/logo-1.png" alt="logo-1"></a>
             <nav class="navbar">
                 <ul class="navbar-menu">
                     <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
@@ -43,7 +44,7 @@
     <section class="home" id="home">
         <div class="container">
             <div class="home-content">
-                <img src="./assets/images/logo-1.png" class="logo" alt="">
+                <img src="./assets/images/logo-1.png" class="logo" alt="logo-1">
                 <h2>Website | Branding | Mobile Apps | It Solutions</h2>
                 <h3>Meaning of Strength and beauty</h3>
                 <a href="#contact">CALL US</a>
@@ -55,7 +56,7 @@
     <section class="about" id="about">
         <div class="container">
             <div class="logo">
-                <img src="./assets/images/logo-1.png" alt="">
+                <img src="./assets/images/logo-1.png" alt="logo-1">
             </div>
             <div class="about-text">
                <p>Hello.</p>
@@ -123,7 +124,7 @@
             </div>
             <div class="section-logo">
                 <span class="section-hr"></span>
-                <img src="./assets/images/logo-1.png" class="logo" alt="">
+                <img src="./assets/images/logo-1.png" class="logo" alt="logo-1">
                 <span class="section-hr"></span>
             </div>
             <div class="services-cards">
@@ -206,44 +207,38 @@
             </div>
             <div class="section-logo">
                 <span class="section-hr"></span>
-                <img src="./assets/images/logo-1.png" class="logo" alt="">
+                <img src="./assets/images/logo-1.png" class="logo" alt="logo-1">
                 <span class="section-hr"></span>
             </div>
-            <div class="portfolio-cards">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
 
-                <a href="#" class="portfolio-card">
-                    <img src="./assets/images/image-1.jpg" class="portfolio-image" alt="">
-                </a>
-                <a href="#" class="portfolio-card">
-                    <img src="./assets/images/image-2.jpg" class="portfolio-image" alt="">
-                </a>
-                <a href="#" class="portfolio-card">
-                    <img src="./assets/images/image-3.jpg" class="portfolio-image" alt="">
-                </a>
-                <a href="#" class="portfolio-card">
-                    <img src="./assets/images/image-4.jpg" class="portfolio-image" alt="">
-                </a>
-                <a href="#" class="portfolio-card">
-                    <img src="./assets/images/image-5.jpg" class="portfolio-image" alt="">
-                </a>
-                <a href="#" class="portfolio-card">
-                    <img src="./assets/images/image-6.jpg" class="portfolio-image" alt="">
-                </a>
-                <a href="#" class="portfolio-card">
-                    <img src="./assets/images/image-7.jpg" class="portfolio-image" alt="">
-                </a>
-                <a href="#" class="portfolio-card">
-                    <img src="./assets/images/image-8.jpeg" class="portfolio-image" alt="">
-                </a>
-                <a href="#" class="portfolio-card">
-                    <img src="./assets/images/image-9.jpg" class="portfolio-image" alt="">
-                </a>
-                
-             
-                
-        
+                    <a href="#" class="swiper-slide">
+                        <img src="./assets/images/image-1.jpg" alt="image-1">
+                    </a>
 
-            </div>
+                    <a href="#" class="swiper-slide">
+                        <img src="./assets/images/image-2.jpg" alt="image-2">
+                    </a>
+
+                    <a href="#" class="swiper-slide">
+                        <img src="./assets/images/image-3.jpg" alt="image-3">
+                    </a>
+
+                    <a href="#" class="swiper-slide">
+                        <img src="./assets/images/image-4.jpg" alt="image-4">
+                    </a>
+
+                    <a href="#" class="swiper-slide">
+                        <img src="./assets/images/image-5.jpg" alt="image-5">
+                    </a>
+
+                    <a href="#" class="swiper-slide">
+                        <img src="./assets/images/image-6.jpg" alt="image-6">
+                    </a>
+
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
@@ -262,7 +257,7 @@
 
             <div class="section-logo">
                 <div class="section-hr"></div>
-                <img src="./assets/images/logo-1.png" alt="" class="logo">
+                <img src="./assets/images/logo-1.png" alt="logo-1" class="logo">
                 <div class="section-hr"></div>
             </div>
 
@@ -384,9 +379,9 @@
         </a>
     </div>
 
+    <!-- Link Swiper Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- Link Javascript -->
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
-
-

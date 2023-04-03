@@ -49,3 +49,30 @@ const scrollActive = () => {
 
 window.addEventListener('scroll', scrollActive)
 
+
+// Swiper 
+const swiper = new Swiper(".mySwiper", {
+    spaceBetween: 20,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+        600: {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 40
+        },
+        992: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 40
+        }
+      }
+});
