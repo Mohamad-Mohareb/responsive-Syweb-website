@@ -51,28 +51,15 @@ window.addEventListener('scroll', scrollActive)
 
 
 // Swiper 
-const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".swiper", {
     spaceBetween: 20,
+    slidesPerView: 1,
+    speed: 400, 
+    effect: 'fade',
+    loop: true,
+
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
-    breakpoints: {
-        600: {
-          slidesPerView: 1,
-          spaceBetween: 20
-        },
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 40
-        },
-        992: {
-            slidesPerView: 2,
-            spaceBetween: 30
-        },
-        1200: {
-            slidesPerView: 3,
-            spaceBetween: 40
-        }
-      }
 });
