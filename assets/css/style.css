@@ -192,6 +192,7 @@ body {
 .about-text p {
   font-size: 14px;
   color: var(--color-text);
+  line-height: 20px;
 }
 .about-link {
   padding-bottom: 50px;
@@ -377,6 +378,7 @@ body {
   color: var(--color-white);
   padding-bottom: 15px;
   font-weight: 100;
+  line-height: 20px;
 }
 .footer-box .footer-menu {
   display: grid;
