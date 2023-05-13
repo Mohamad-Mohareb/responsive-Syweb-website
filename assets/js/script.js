@@ -1,10 +1,18 @@
 // Opening and closing the navigation menu
-const hamburger = document.querySelector(".hamburger");
-      navbarMenu = document.querySelector(".navbar");
 
-hamburger.addEventListener("click", ()=> {
-    hamburger.classList.toggle("active");
-    navbarMenu.classList.toggle("active");
+const BtnMenu = document.querySelector('.hamburger');
+      navMenu = document.querySelector('.navbar');
+
+BtnMenu.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    BtnMenu.classList.toggle('active');
+});
+
+navMenu.addEventListener('click', (event) => {
+  if (event.target.tagName === 'A') {
+    navMenu.classList.remove('active');
+    BtnMenu.classList.remove('active');
+  }
 });
 
 
